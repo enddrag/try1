@@ -1,9 +1,9 @@
 body{
 	margin: 0;
 	padding: 0;
-	background: red;
+	background: lightgray;
 }
-.particles-js{
+#particles-js{
 	position: fixed;
 	top: 0;
 	left: 0;
@@ -11,7 +11,26 @@ body{
 	height: 100%;
 	z-index: 1;
 }
-.page-wrapper{
+#page-wrapper{
 	position: relative;
 	z-index: 2;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+header{
+width: 600px;
+height: 100px;
+background: white;
+}
+content{
+width: 600px;
+height: 500px;
+background: white;
+margin-top:50px;
+}
+footer{
+width: 100%;
+height: 100px;
+margin-bottom: -100px;
 }
